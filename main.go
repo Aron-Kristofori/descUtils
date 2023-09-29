@@ -110,7 +110,7 @@ func main() {
 						description += desc[i] + " "
 					}
 				}
-				f.WriteString("int" + words[0] + "\n")
+				f.WriteString("int " + words[0] + "\n")
 				f.WriteString("description " + description + "\n")
 				case "p":
 					description += modifier 
@@ -121,7 +121,7 @@ func main() {
 							description += desc[i] + " "
 						}
 					}
-					f.WriteString("int" + words[0] + "\n")
+					f.WriteString("int " + words[0] + "\n")
 					f.WriteString("description " + description + "\n")
 			}
 		}
